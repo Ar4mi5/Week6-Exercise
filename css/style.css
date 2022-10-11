@@ -107,9 +107,14 @@
     font-size: 2.6rem;
     padding: 2rem;
     text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
     animation-name: moveinright;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform:scale(1.2);
 }
 
 @keyframes moveinright {
@@ -182,8 +187,13 @@
     padding: 2rem;
     text-transform: uppercase;
     animation-name: moveinleft2;
+    transition: all 0.5s ease-in-out;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform:scale(1.2);
 }
 
 @keyframes moveinleft2 {
